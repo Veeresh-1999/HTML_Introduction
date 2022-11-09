@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+
+
+    <!-- HTML Headings -->
+    <h1 id="top">Heading Example</h1>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Horizontal Row -->
+    <hr>
+
+    <!-- Image Tag -->
+    <h1 id="img"> Image Example</h1>
+    <img src="./image.jfif" alt="image" width="50%">
+    <hr>
+
+    <!-- Paragraph -->
+    <h1>Paragraph Example</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, id, non praesentium dolore laborum et consequatur eveniet nesciunt exercitationem odio quia sapiente recusandae a dicta amet. Inventore sit similique iure.
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, id, non praesentium dolore laborum et consequatur eveniet nesciunt exercitationem odio quia sapiente recusandae a dicta amet. Inventore sit similique iure.
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, id, non praesentium dolore laborum et consequatur eveniet nesciunt exercitationem odio quia sapiente recusandae a dicta amet. Inventore sit similique iure.
+    </p>
+    <hr>
+
+    <!-- List Exapmle -->
+    <h1>List Example</h1>
+    <!-- Ordered list -->
+        <!-- Ordered list example 1 -->
+        <h1>Ordered list Example 1</h1>
+        <h3>Using number</h3>
+        <ol>Web development
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Bootstrap</li>
+            <li>MySQL</li>
+        </ol>
+
+        <!-- Ordered list example 2 with Alphabet -->
+        <h3>Using Alphabet UpperCase</h3>
+        <ol type="A">
+            Best Resource
+            <li>W3S</li>
+            <li>GFG</li>
+            <li>Javatpoint</li>
+        </ol>
+
+        <!-- Ordered list example  -->
+        <h3>Using number where number start from 5</h3>
+        <ol type="1" start="5">
+            Best Resource to Practice
+            <li>W3S</li>
+            <li>HackerRank</li>
+            <li>Code Chef</li>
+        </ol>
+        <hr>
+
+    <!-- Unorderd list -->
+    <h1>Unordered List</h1>
+    <ul>Web development
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>Bootstrap</li>
+        <li>MySQL</li>
+    </ul>
+
+        <!-- Unorderd list -->
+    <h1>Description List</h1>
+    <dl>Web development
+        <dt>HTML</dt>
+        <dd>-Hypper Text Markup Language</dd><br>
+        <dt>CSS</dt>
+        <dd>-Cascadind Style Sheets</dd><br>
+        <dt>JS</dt>
+        <dd>-Java Script</dd>
+    </dl>
+    <hr>
+
+    <!-- Break Tag -->
+    <h1>Break Tag</h1>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, consequuntur dolorem! Possimus beatae non excepturi velit,<br> aspernatur nesciunt voluptatibus adipisci! Similique tempore ea alias. Reprehenderit ab quibusdam ipsa deserunt alias?
+    <hr>
+
+    <!-- Table  -->
+    <h1>Table Example 1</h1>
+    <table border="1">
+        <!-- table Caption -->
+        <caption>This is table caption</caption>
+            <!-- Table Heading -->
+            <thead>
+                <!-- Table row -->
+                <tr>
+                    <!-- heading name -->
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>year of jioning</th>
+                </tr>
+            </thead>
+            <!-- Table body -->
+            <tbody>
+                <tr>
+                    <td>Veeresh</td>
+                    <td>MCA</td>
+                    <td>2019</td>
+                </tr>
+
+                <tr>
+                    <td>Mahesh</td>
+                    <td>M.Sc</td>
+                    <td>2020</td>
+                </tr>
+
+                <tr>
+                    <td>Ramesh</td>
+                    <td>M.Sc</td>
+                    <td>2022</td>
+                </tr>
+            </tbody>
+    </table>
+<hr>
+    <!-- Table Example with colouum span -->
+    <h1>colom span</h1>
+    <table border="2">
+        <caption>Colom Sapn</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Telephone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Veeresh</td>
+                <td>2589631470</td>
+                <td>8854796321</td>
+            </tr>
+            <tr>
+                <td>Mahesh</td>
+                <td>8874120536</td>
+                <td>6996321458</td>
+            </tr>
+            <tr>
+                <td>Ramesh</td>
+                <td>9856321470</td>
+                <td>9876543210</td>
+            </tr>
+        </tbody>
+    </table>
+<hr>
+    <!-- Table Example with colouum span -->
+    <h1>Row span</h1>
+    <table border="1">
+        <caption>Row span</caption>
+        <tr>
+            <th>Name :</th>
+            <td>Veeresh</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>8569741230</td>
+        </tr>
+
+        <tr>
+            <td>85859696740</td>
+        </tr>
+    </table>
+    <hr>
+
+
+    <!-- form Example -->
+    <h1>Form Example</h1>
+    <form action="">
+        <fieldset>
+            <!-- title of form -->
+        <legend>Register</legend>
+        <!-- input type text -->
+        First name : 
+        <input type="text"> <br><br>
+        Last Name : 
+        <input type="text" name="" id=""> <br><br>
+
+        Email Id :
+        <input type="email"> <br><br>
+
+        password :
+        <input type="password" name="" id=""> <br><br>
+
+        <!-- Input type radio button -->
+        Gender :
+        <input type="radio" name="gender"> male
+        <input type="radio" name="gender"> femail
+        <br><br>
+
+        <!-- Input type Check box -->
+        Select area of interst :
+        <input type="checkbox" name="checkbox">Data structusr & algorithm 
+        <input type="checkbox" name="checkbox"> WEB DEVELOPMENT 
+        <input type="checkbox" name="checkbox"> DATA SCIENCE 
+        <br><br>
+
+        <!-- input type Select -->
+        <label for="carSelect">Select duration of training :</label>
+        <select name="cars" id="carSelect">
+            <option value="3-month">3-Month</option>
+            <option value="6-month">6-Month</option>
+            <option value="1-Year">1-Year</option>
+        </select>
+        <br><br>
+
+        <!-- inpput type Submit button -->
+        <input type="submit" name="" id="">
+        </fieldset>
+    </form>
+    <br><br>
+    <hr>
+
+    <!--button-->
+    <h1>Button Type</h1>
+    <button>Click me</button>
+    <hr><hr>
+
+    <h1>MTA WEBSITE</h1>
+    <iframe src="https://www.javatpoint.com/html-tutorial" frameborder="0" height="400px" width="60%"></iframe>
+    <br><br>
+    <hr>
+
+    <!-- Text formating -->
+    <h1>Text Formating</h1>
+    <!-- Bold  -->
+    <h2>1. Bold Text</h2>
+    Example : Normal Text || <b>Bold Text</b>
+    
+    <!-- Strong -->
+    <h2>2. Strong Text</h2>
+    Example : Normal Text || <strong>Strong Text</strong>
+
+    <!-- i -->
+    <h2>3. Italic Text</h2>
+    Example : Normal Text || <i>Italic Text</i>
+
+    <!-- Em -->
+    <h2>4. Emphasized Text</h2>
+    Example : Normal Text || <em>Emphasized Text</em>
+
+    <!--Marked Text-->
+    <h2>5. Marked Text</h2>
+    Example : Normal Text || <mark> Marked Text </mark>
+
+    <!--small-->
+    <h2>6. Small Text</h2>
+    Example : Normal Text || <small>Small Text</small>
+    
+    <!--del-->
+    <h2>7. Delete Text</h2>
+    Example : Normal Text || <del>Delete Text</del>
+
+    <!--ins-->
+    <h2>8. Insert Text</h2>
+    Example : Normal Text || <ins>Inserted Text</ins>
+
+    <!--sub-->
+    <h2>9. Subscript Text</h2>
+    Example : Normal number 23|| Subscript Number 2 <sub>3</sub>
+
+    <!--sup-->
+    <h2>10. Superscript Text</h2>
+    Example : Normal Number 23 || Superscript Number 2<sup>3</sup>
+
+    <hr>
+        <!-- Hypper link -->
+        <h1>Hypper Link</h1>
+        
+        <!-- Defualt Hypper Link -->
+        <h2>Default Hypper Link</h2>
+        This will open Google page in the same page <br>
+        For more HTML details do a little search on <a href="www.google.com">Google</a>
+
+        <!-- self target Hypper Link -->
+        <h2>Self Hypper Link</h2>
+        This will open Google page in the same page <br>
+        For more HTML details do a little search on <a href="www.google.com" target="_self">Google</a>
+
+        <!-- blank Hypper Link -->
+        <h2>Blank Hypper Link</h2>
+        This will open Google page in the New Window or Tab<br>
+        For more HTML details do a little search on <a href="www.google.com" target="_blank">Google</a>
+
+        <!-- Parent Hypper Link -->
+        <h2>Parent Hypper Link</h2>
+        This will open Google page in the Parent Frame <br>
+        For more HTML details do a little search on <a href="www.google.com" target="_parent">Google</a>
+
+        <!-- Top Hypper Link -->
+        <h2>Top Hypper Link</h2>
+        This will open Google page in the full body of the window<br>
+        For more HTML details do a little search on <a href="www.google.com" target="_top">Google</a>
+        <hr>
+
+        <!-- Bookmarks as htpper link -->
+        <h1>Bookmarks as htpper link</h1>
+
+        <!-- visiting the top of the page -->
+        <h2>visiting the top of the page</h2>
+        <a href="#top">click here to go top</a>
+
+        <!-- visiting to the image -->
+        <h2>visiting to image</h2>
+        <a href="#img">click to view image</a>
+
+</body>
+</html>
